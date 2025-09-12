@@ -103,7 +103,7 @@ main {
 
 /* Hero Section on Home Page*/
 .hero {
-    background: linear-gradient(rgba(50, 0, 110, 0.4), rgba(51, 0, 111, 0.8));
+    background: linear-gradient(rgba(50, 0, 110, 1), rgba(55, 0, 115, 0.6));
     background-size: cover;
     background-position: center;
     color: white;
@@ -147,7 +147,7 @@ main {
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: scale(1.03);
 }
 
 .card-img {
