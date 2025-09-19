@@ -148,7 +148,7 @@ main {
 
 .hero p {
     font-size: 1.2rem;
-    max-width: 800px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -240,53 +240,6 @@ main {
 
 .team-member p {
     color: #666;
-}
-
-/* Social Media */
-.social-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin: 2rem 0;
-}
-
-.social-card {
-    background: white;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.social-img {
-    height: 250px;
-    background-color: #ddd;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #777;
-    overflow: hidden;
-}
-
-.social-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.social-content {
-    padding: 1rem;
-}
-
-.social-content p {
-    color: #666;
-    margin-bottom: 0.5rem;
-}
-
-.social-stats {
-    display: flex;
-    justify-content: space-between;
-    color: #999;
-    font-size: 0.9rem;
 }
 
 /* Footer */
